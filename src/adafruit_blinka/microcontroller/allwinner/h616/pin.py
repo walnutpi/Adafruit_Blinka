@@ -2,7 +2,8 @@
 #
 # SPDX-License-Identifier: MIT
 """Allwinner H616 Pin Names"""
-from adafruit_blinka.microcontroller.generic_linux.libgpiod_pin import Pin
+# from adafruit_blinka.microcontroller.generic_linux.libgpiod_pin import Pin
+from aw.gpio.H616 import Pin
 
 PC0 = Pin((0, 64))
 SPI0_SCLK = PC0
