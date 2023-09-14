@@ -142,6 +142,9 @@ elif board_id == ap_board.BANANA_PI_M2_PLUS:
 elif board_id == ap_board.BANANA_PI_M5:
     from adafruit_blinka.board.bananapi.bpim5 import *
 
+elif board_id == ap_board.LEMAKER_BANANA_PRO:
+    from adafruit_blinka.board.lemaker.bananapro import *
+
 elif board_id == ap_board.GIANT_BOARD:
     from adafruit_blinka.board.giantboard import *
 
@@ -358,8 +361,12 @@ elif board_id is None:
         f"""
         {package[0]} version {package[1]} was unable to identify the board and/or
         microcontroller running the {platform.system()} platform. Please be sure you
-        have the latest packages running:
+        have the latest packages by running:
         'pip3 install --upgrade adafruit-blinka adafruit-platformdetect'
+
+        If you are running the latest package, your board may not yet be supported. Please
+        open a New Issue on GitHub at https://github.com/adafruit/Adafruit_Blinka/issues and
+        select New Board Request.
         """
     )
 
