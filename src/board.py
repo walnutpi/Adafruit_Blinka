@@ -348,6 +348,9 @@ elif board_id == ap_board.GENERIC_LINUX_PC:
 
 elif board_id == ap_board.WALNUT_PI_1B:
     from adafruit_blinka.board.walnutpi.walnutpi1b import *
+    
+elif board_id == ap_board.WALNUT_PI_1B_EMMC:
+    from adafruit_blinka.board.walnutpi.walnutpi1b_emmc import *
 
 elif "sphinx" in sys.modules:
     pass
