@@ -51,7 +51,7 @@ elif (
 ):
     from adafruit_blinka.microcontroller.rp2040_u2if.pwmio import PWMOut
 elif detector.board.any_walnutpi:
-    from aw.gpio import Pwm as PWMOut
+    from gpioc.pwm import Pwm as PWMOut
 elif "sphinx" in sys.modules:
     pass
 else:
