@@ -114,6 +114,8 @@ elif detector.board.microchip_mcp2221:
     from adafruit_blinka.microcontroller.mcp2221.pin import Pin
 elif detector.chip.RP2040_U2IF:
     from adafruit_blinka.microcontroller.rp2040_u2if.pin import Pin
+elif detector.chip.K230:
+    from adafruit_blinka.microcontroller.canaan.k230.pin import Pin
 # MicroPython Chips
 elif detector.chip.STM32F405:
     from machine import Pin

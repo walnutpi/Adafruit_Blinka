@@ -140,6 +140,8 @@ elif chip_id == ap_chip.RP2040_U2IF:
     from adafruit_blinka.microcontroller.rp2040_u2if import *
 elif chip_id == ap_chip.D1_RISCV:
     from adafruit_blinka.microcontroller.allwinner.D1 import *
+elif chip_id == ap_chip.K230:
+    from adafruit_blinka.microcontroller.canaan.k230 import *
 elif chip_id == ap_chip.GENERIC_X86:
     print("WARNING: GENERIC_X86 is not fully supported. Some features may not work.")
 elif chip_id is None:
