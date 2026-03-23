@@ -355,6 +355,8 @@ elif board_id == ap_board.WALNUT_PI_2B:
     from adafruit_blinka.board.walnutpi.walnutpi2b import *
 elif board_id == ap_board.CANMV_K230:
     from adafruit_blinka.board.walnutpi.canmv import *
+elif board_id == ap_board.XCAM:
+    from adafruit_blinka.board.walnutpi.xcam import *
 
 elif "sphinx" in sys.modules:
     pass
