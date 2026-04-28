@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2021 Melissa LeBlanc-Williams for Adafruit Industries
 #
 # SPDX-License-Identifier: MIT
-"""Pin definitions for the Walnut Pi canMV K230 ."""
+"""Pin definitions for the Walnut Pi CyberCAM K230 ."""
 
 from adafruit_blinka.microcontroller.canaan.k230 import pin
 
@@ -20,5 +20,5 @@ RX3 = pin.IO51
 
 KEY = pin.IO21
 LED = pin.IO52
-FLASH = pin.IO46
+LIGHT = pin.IO46
 BEEP = pin.IO47
