@@ -80,6 +80,8 @@ TWI2_SDA = IO12
 
 UART1_TX = IO3
 UART1_RX = IO4
+UART2_TX = IO11
+UART2_RX = IO12
 UART3_TX = IO50
 UART3_RX = IO51
 
@@ -96,5 +98,6 @@ spiPorts = ((0, SPI0_SCLK, SPI0_MOSI, SPI0_MISO),)
 # ordered as uartId, txId, rxId
 uartPorts = (
     (1, UART1_TX, UART1_RX),
+    (2, UART2_TX, UART2_RX),
     (3, UART3_TX, UART3_RX),
 )
