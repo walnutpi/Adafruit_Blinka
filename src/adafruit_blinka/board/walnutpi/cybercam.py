@@ -14,11 +14,11 @@ IO60 = pin.IO60
 IO61 = pin.IO61
 
 
-TX2 = pin.IO10
-RX2 = pin.IO11
+TX2 = pin.IO11
+RX2 = pin.IO12
 
-SCL2 = pin.IO10
-SDA2 = pin.IO11
+SCL2 = pin.IO11
+SDA2 = pin.IO12
 
 
 KEY = pin.IO21
